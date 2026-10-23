@@ -61,6 +61,7 @@ try {
     if (-not (Test-Path $dotfiles)) {
         throw "Dotfiles source folder not found: $dotfiles"
     }
+    
 
     if (-not (Test-Path $vscodeUser)) {
         throw "VS Code User folder not found: $vscodeUser. Is VS Code installed?"
